@@ -715,8 +715,9 @@ const App: React.FC = () => {
            <div className="flex flex-col lg:flex-row gap-16 lg:gap-24">
               {/* Left Side - Title */}
               <div className="lg:w-1/2 relative z-10">
-                <h2 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl leading-[0.95] font-heading font-black uppercase tracking-tighter mb-10 lg:mb-8 break-words">
-                  Vamos<br/>Conversar?
+                <h2 className="text-5xl md:text-6xl lg:text-7xl font-heading font-black uppercase tracking-tighter mb-10 lg:mb-8">
+                  <span className="block">VAMOS</span>
+                  <span className="block">CONVERSAR?</span>
                 </h2>
                 <p className="text-gray-400 text-lg max-w-md mb-8">
                   Preencha o formulário para iniciarmos um diagnóstico da sua operação. Nossa equipe entrará em contato em breve.
