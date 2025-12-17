@@ -16,7 +16,7 @@ export const initializeChat = (): Chat => {
   const ai = new GoogleGenAI({ apiKey: API_KEY });
   
   chatSession = ai.chats.create({
-    model: 'gemini-2.5-flash',
+    model: 'gemini-3-flash-preview',
     config: {
       systemInstruction: `Você é a ÔMEGA IA, a consultora virtual da Assessoria Ômega.
 
